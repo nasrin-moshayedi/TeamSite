@@ -1,26 +1,86 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import { withStyles } from "@material-ui/styles";
+import Menu from "./components/menu/menu";
+import Header from "./components/header/header";
+import TeamMemeber from "./components/teamMember/teamMember";
+import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
+import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
+import MyWork from "./components/MyWork/MyWork";
+// import { Styles } from "./AppbarStyle";
+// import Scrollspy from "react-scrollspy";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Menu />
+      <Header />
+      <WhoWeAre />
+      <WhatWeDo />
+      <TeamMemeber />
+      <MyWork />
+
+      <div>
+        <div>
+          {" "}
+          {/* <Scrollspy
+            items={["section-1", "section-2", "section-3"]}
+            currentClassName="is-current"
+          >
+            <li>
+              <a href="#section-1">section 1</a>
+            </li>
+            <li>
+              <a href="#section-2">section 2</a>
+            </li>
+            <li>
+              <a href="#section-3">section 3</a>
+            </li>
+          </Scrollspy>
+          <section id="section-1">
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+          </section>
+          <section id="section-2">
+            {" "}
+            <p>sdss</p>
+            <p>de</p>
+            <p>hellllllll</p>
+            <p>zc</p>
+            <p>zc</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+          </section>
+          <section id="section-3">
+            {" "}
+            <p>cccc</p>
+            <p>de</p>
+            <p>hellllllll</p>
+            <p>zc</p>
+            <p>zc</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+            <p>hellllllll</p>
+          </section> */}
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;
+// export default withStyles(Styles)(ButtonAppBar);
