@@ -3,33 +3,33 @@ import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
 import { useStyles } from "./teamMemeberStyle";
-import Nasrin from "./../../assets/images/nasrin_s.jpg";
+// import Nasrin from "./../../assets/images/nasrin_s.jpg";
 import Hossein from "./../../assets/images/hossein_n.jpg";
-import Sia from "./../../assets/images/nasrin-m.jpg";
+// import Sia from "./../../assets/images/nasrin-m.jpg";
 
 const Data = [
   {
-    image: Nasrin,
+    image: Hossein,
     name: "Nasrin Moshayedi",
     skills: "Mobile App developer & Co-found"
   },
   {
-    image: Nasrin,
+    image: Hossein,
     name: "Nasrin Moshayedi",
     skills: "Frontend Developer & Co-found"
   },
   {
-    image: Sia,
+    image: Hossein,
     name: "Nasrin Moshayedi",
     skills: "Backend & Co-found"
   },
   {
-    image: Sia,
+    image: Hossein,
     name: "Nasrin Moshayedi",
     skills: "Mobile App developer Developer"
   },
   {
-    image: Sia,
+    image: Hossein,
     name: "Nasrin Moshayedi",
     skills: "Backend Developer"
   }
