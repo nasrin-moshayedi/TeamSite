@@ -24,7 +24,7 @@ export const useStyles = makeStyles({
     filter: "grayscale(100%)"
   },
   HeaderImageCover: {
-    border: "9px solid #fcb235",
+    // border: "9px solid #fcb235",
     width: "85%",
     height: 400,
     display: "flex",

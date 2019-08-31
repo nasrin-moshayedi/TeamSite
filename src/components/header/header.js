@@ -17,33 +17,33 @@ export default function ButtonAppBar() {
         />
         {/* <Grid item lg={6}> */}
         <div className={classes.HeaderImageCover}>
-          <Typography
+          {/* <Typography
             variant="h2"
             gutterBottom
             className={classes.HeaderTopText}
           >
             hello world
-          </Typography>
-          <br />
+          </Typography> */}
+          {/* <br /> */}
           <Typography variant="h4" gutterBottom className={classes.HeaderText}>
             We build your dreams application and websites
           </Typography>
-          <Button
+          {/* <Button
             className={classes.HeaderTopText}
             style={{
               marginTop: "410px",
               marginLeft: "-210px",
               fontWeight: "bolder"
             }}
-          >
-            <Typography
+          > */}
+            {/* <Typography
               variant="h6"
               gutterBottom
               // className={classes.HeaderText}
             >
               Hire me
             </Typography>
-          </Button>
+          </Button> */}
         </div>
       </Grid>
     </div>

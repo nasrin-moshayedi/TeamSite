@@ -56,7 +56,7 @@ export default function Team() {
         </Grid>
         <Grid item lg={9} md={6} sm={10} xs={11}>
           <Grid container justify="space-around" alignItems="center">
-            {Data.map(item => (
+            {Data.map((item, key) => (
               <Grid item lg={2} md={6} sm={10} xs={11}>
                 {item.Icon}
                 <Typography variant="h6" style={{ margin: "10px 0" }}>
